@@ -356,7 +356,7 @@ class Otp {
 }
 
 
-export default module.exports = (() => {
+const msg91 = (() => {
     var object = null;
     if (object) {
         return object;
@@ -365,3 +365,4 @@ export default module.exports = (() => {
 
     }
 })();
+export default msg91;
