@@ -3,8 +3,14 @@ NodeJS package for msg91 services.
 ## Initialize Msg91
 ```js
 import msg91 from "msg91";
+/**
+*OR
+*const msg91 = require('msg91').default;
+*/
+
 msg91.initialize({authKey: "Your-Auth-Key"});
 ```
+
 ## SMS Example
 ```js
 let sms = msg91.getSMS();
